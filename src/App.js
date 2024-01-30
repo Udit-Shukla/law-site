@@ -5,16 +5,24 @@ import Main from './pages/Main';
 import Disclaimer from './pages/Disclaimer';
 
 function App() {
-  
-
+  const [visible,setVisible]=React.useState(false);
   return (
-    <>
       <div className='main-side'>
-        <Main />
-        <Sidebar/>
-        <Disclaimer/>
+        <Disclaimer setVisible={setVisible}/>
+        {
+          visible ? (
+            <>
+              <Main />
+              <Sidebar />
+            </>
+          ) : (
+            <>
+              
+            </>
+          )
+        }
       </div>
-    </>
+  
   );
 }
 

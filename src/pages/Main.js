@@ -1,7 +1,7 @@
 import React from 'react'
 // import image1 from 'C:/Users/walia/OneDrive/Desktop/law-site/law-site/src/pics/Image1.jpeg';
 // import image2 from 'C:/Users/walia/OneDrive/Desktop/law-site/law-site/src/pics/Image2.png';
-import image3 from 'C:/Users/walia/OneDrive/Desktop/law-site/law-site/src/pics/Image3.png';
+// import image3 from 'C:/Users/walia/OneDrive/Desktop/law-site/law-site/src/pics/Image3.png';
 
 
 function Main() {
